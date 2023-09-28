@@ -1,0 +1,41 @@
+.page-not-found-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.not-found-image {
+  height: 40%;
+  width: 25%;
+}
+
+.not-found-heading {
+  color: var(--light-blue-gray-800, #1e293b);
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 150% */
+}
+
+.not-found-description {
+  color: var(--light-blue-gray-600, #475569);
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+
+.home-btn {
+  height: 50px;
+  width: 120px;
+  border-radius: 8px;
+  border-width: 0px;
+  background-color: #f7931e;
+  color: white;
+}

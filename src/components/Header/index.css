@@ -1,0 +1,150 @@
+.navbar {
+  width: 100vw;
+  height: 96px;
+  background: var(--light-blue-gray-50, #f8fafc);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media (max-width: 576px) {
+  .navbar {
+    justify-content: space-between;
+  }
+}
+
+.link-style {
+  text-decoration: none;
+}
+
+.logo-heading-container {
+  display: flex;
+  align-items: center;
+}
+
+.brand-name {
+  color: #f7931e;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 32px;
+  padding-left: 16px;
+}
+
+.nav-items-lg-devices {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+@media (max-width: 576px) {
+  .nav-items-lg-devices {
+    display: none;
+  }
+}
+
+.nav-item {
+  color: var(--light-blue-gray-700, #334155);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: -0.356px;
+  padding: 10px;
+}
+
+.logout-btn-lg {
+  display: flex;
+  padding: 8px 16px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border-radius: 8px;
+  background: #f7931e;
+  width: 100px;
+  height: 40px;
+  border-width: 0px;
+  border-radius: 8px;
+  margin: 10px;
+  color: white;
+}
+
+@media (max-width: 576px) {
+  .logout-btn-lg {
+    display: none;
+  }
+}
+
+.menu-btn {
+  background-color: transparent;
+  border-width: 0px;
+}
+
+@media (min-width: 576px) {
+  .menu-btn {
+    display: none;
+  }
+}
+
+.menu-icon {
+  font-size: 40px;
+}
+
+@media (min-width: 576px) {
+  .menu-icon {
+    display: none;
+  }
+}
+
+.popup-content {
+  display: flex;
+}
+
+.nav-items-sm-devices {
+  display: flex;
+  width: 100%;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logout-btn-sm {
+  display: flex;
+  padding: 8px 16px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border-radius: 8px;
+  background: #f7931e;
+  width: 100px;
+  height: 40px;
+  border-width: 0px;
+  border-radius: 8px;
+  margin: 10px;
+  color: white;
+}
+
+@media (min-width: 568px) {
+  .logout-btn-sm {
+    display: none;
+  }
+}
+
+@media (min-width: 577px) {
+  .nav-items-sm-devices {
+    display: none;
+  }
+}
+
+.nav-container-for-sm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}

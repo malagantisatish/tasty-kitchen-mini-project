@@ -1,0 +1,83 @@
+.restaurant-item {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.restaurant-image {
+  height: 150px;
+  width: 45%;
+  flex-shrink: 0;
+  margin: 5px;
+  border-radius: 8px;
+}
+
+.restaurant-name {
+  color: var(--light-blue-gray-700, #334155);
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 133.333% */
+  letter-spacing: 0.2px;
+}
+
+.cuisine-name {
+  color: var(--light-blue-gray-500, #64748b);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+}
+
+.rating-section-home {
+  display: flex;
+  align-items: center;
+}
+
+.rating {
+  color: var(--light-blue-gray-800, #1e293b);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-right: 10px;
+}
+
+.react-icon {
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+  color: #ffcc00;
+}
+
+.reviews {
+  color: var(--light-blue-gray-500, #64748b);
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.restaurant-card {
+  width: 400px;
+  display: flex;
+}
+
+@media (max-width: 567px) {
+  .restaurant-card {
+    width: 90%;
+  }
+  .restaurant-item {
+    width: 90%;
+  }
+}
+.heading-rating-block {
+  width: 45%;
+  padding-left: 20px;
+  flex-shrink: 0;
+}
